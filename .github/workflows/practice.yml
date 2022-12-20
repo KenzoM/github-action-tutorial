@@ -1,0 +1,8 @@
+name: HomeWork Practice Github Demo
+on: [push, workflow_dispatch]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Lint Script
+        run: npm run lint
