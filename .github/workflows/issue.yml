@@ -1,8 +1,8 @@
-name: Issue Echo
+name: Issue thingy
 on: [issues]
 jobs:
   echochamber:
     runs-on: ubuntu-latest
-    steps: Output the issue
+    steps:
       - name: Run Echo
         run: echo "${{ toJSON(github) }}"
