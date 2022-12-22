@@ -4,5 +4,5 @@ jobs:
   echochamber:
     runs-on: ubuntu-latest
     steps: Output the issue
-      - name: Get the echo working
+      - name: Run Echo
         run: echo "${{ toJSON(github) }}"
