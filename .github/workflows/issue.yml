@@ -1,7 +1,7 @@
 name: Issue Echo
-on: issues
+on: [issues]
 jobs:
-  echo job:
+  echochamber:
     runs-on: ubuntu-latest
     steps: Output the issue
     - name:
